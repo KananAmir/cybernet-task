@@ -1,0 +1,41 @@
+#stage {
+  background-color: rgb(243, 244, 246);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  .stage-title {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.5rem;
+    li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem;
+      background-color: #fff;
+      border-radius: 0.5rem;
+      .close {
+        color: red;
+      }
+    }
+  }
+  .add-card {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    button {
+      background-color: rgb(34, 197, 93);
+      color: #fff;
+      border: none;
+      padding: 1rem 0;
+      border-radius: 0.5rem;
+    }
+    input {
+      padding: 1rem;
+    }
+  }
+}
